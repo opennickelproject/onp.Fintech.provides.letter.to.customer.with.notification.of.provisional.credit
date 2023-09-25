@@ -1,29 +1,24 @@
-metadata:
-  pattern-id: onp.base.template
-  pattern-name: base-template
-  organisation-id: demobank
-  pattern-version: 1.0.0
-  pattern-description: some description here
-  pattern-categories: 
-              - bootstrap
 
 lifecycle:
   create:
     commands:
-      - bash lifecycle/create.sh
-
+    - bash lifecycle/create.sh
   delete:
     commands:
-      - bash lifecycle/delete.sh
-
+    - bash lifecycle/delete.sh
   update:
     commands:
-      - bash lifecycle/update.sh
-
+    - bash lifecycle/update.sh
   upgrade:
     commands:
-      - bash lifecycle/upgrade.sh
-
-dependencies:
-
-
+    - bash lifecycle/upgrade.sh
+metadata:
+  organisation-id: demobank
+  pattern-categories:
+  - Other
+  pattern-description: Fintech provides letter to customer with notification of provisional
+    credit using Bank-approved notification templates
+  pattern-id: onp.Fintech.provides.letter.to.customer.with.notification.of.provisional.credit
+  pattern-name: Fintech provides letter to customer with notification of provisional
+    credit
+  pattern-version: 1.0.0
