@@ -1,4 +1,4 @@
-dependencies: null
+
 lifecycle:
   create:
     commands:
@@ -13,7 +13,7 @@ lifecycle:
     commands:
     - bash lifecycle/upgrade.sh
 metadata:
-  organisation-id: onp
+  organisation-id: demobank
   pattern-categories:
   - Other
   pattern-description: Fintech provides letter to customer with notification of provisional
